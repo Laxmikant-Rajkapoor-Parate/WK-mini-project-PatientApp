@@ -1,0 +1,29 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.patient-data {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+
+  #getDataButton {
+    border: none;
+    padding: 20px 40px;
+    font-size: larger;
+    font-weight: 600;
+    color: #030002c4;
+    border-radius: 10px;
+    margin-bottom: 30px;
+  }
+
+  table {
+    font-size: large;
+    font-weight: 600;
+    color: #030002c4;
+    row-gap: 100px;
+  }
+}
